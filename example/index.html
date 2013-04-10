@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Good Search</title>
+		<script src="../src/jquery-1.9.1.min.js"></script>
+		<script src="../src/clicktrap.plugin.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#search').clicktrap(function() { alert('first box lost focus'); });
+				$('#anotherbox').clicktrap(function() { alert('second box lost focus'); });
+			});
+		</script>
+
+		<style type="text/css">
+
+			div {
+				border: 1px solid #ccc;
+				width: 200px;
+				height: 200px;
+			}
+
+			.inside {
+				width: 100px;
+				height: 100px;
+				background-color: pink;
+			}
+
+
+		</style>
+
+	</head>
+	<body>
+		<div id="search">
+			<div class="inside">
+			</div>
+		</div>
+		<div id="anotherbox">
+			<div class="inside">
+			</div>
+			<div class="inside">
+			</div>
+		</div>
+	</body>
+</html>
