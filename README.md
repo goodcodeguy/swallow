@@ -1,28 +1,13 @@
-# Good Tree
+# Click Track
 
-This is a simple jQuery plugin for handling Tree Views.  Example of usage is in the example folder.
+jQuery plugin for handling Click Trapping.  This plugin allows you to mimic the blur() event on a set of nodes.  Useful for complex controls with internal events that need to be reset when clicked outside of the combined area.
 
-[Demos](http://goodcodeguy.github.com/demos/goodtree/index.html "GoodTree Demos")
+Example:
+
+  $(target).clicktrap(function() { alert('you have clicked outside of the bounds of the target.'); });
 
 ## ChangeLog:
 
-#### 0.3.3:
-
-- Added setFocus configuration setting and method
-- Refactored a bit for expansion and fixed bugs
-
-#### 0.3.1:
+#### 1.0.0
 
 - Initial Release
-
-## Todo:
-
-- Documentation
-- Provide multiple modes of toggle behavior
-	- Click `li` element to toggle
-	- Click existing dom node in `li` to toggle
-	- ~~Create dom node to toggle (current and default behavior)~~
-- ~~Make open and close animations configurable~~
-- ~~Create a focus() method for setting the item that is focus (opening up all of the parents that item resides in)~~
-- _Maybe_ JSON based tree generation
-	- _Maybe_ lazy loading
