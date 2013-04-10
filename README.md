@@ -4,7 +4,7 @@ jQuery plugin for handling Click Trapping.  This plugin allows you to mimic the 
 
 Example:
 
-  $(target).clicktrap(function() { alert('you have clicked outside of the bounds of the target.'); });
+`$(target).clicktrap(function() { alert('you have clicked outside of the bounds of the target.'); });`
 
 ## ChangeLog:
 
