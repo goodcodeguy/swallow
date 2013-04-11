@@ -13,7 +13,7 @@
         if(target.is(traps[i][0])) 
           inside = true;
         
-        $(traps[i][0]).children().each(function() {
+        $(traps[i][0]).find('*').each(function() {
           if($(this).is(target)) 
             inside = true;
         });

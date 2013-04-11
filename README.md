@@ -8,6 +8,10 @@ Example:
 
 ## ChangeLog:
 
+#### 1.0.3
+
+- Fixed a bug that wouldn't traverse all the way down the trapped wrappers children.
+
 #### 1.0.2
 
 - Initial Release
