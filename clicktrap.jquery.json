@@ -1,11 +1,11 @@
 {
-  "name": "clicktrap",
-  "title": "jQuery ClickTrap",
-  "description": "jQuery plugin for handling Click Trapping.  This plugin allows you to mimic the blur() event on a set of nodes.  Useful for complex controls with internal events that need to be reset when clicked outside of the combined area.",
+  "name": "swallow",
+  "title": "jQuery Swallow",
+  "description": "jQuery plugin for handling clicks with complex html controls.  This plugin allows you to mimic the blur() event on a complex set of nodes.  Useful for complex controls with internal events that need to be reset when clicked outside of the combined area.",
   "keywords": [
     "events"
   ],
-  "version": "1.0.3",
+  "version": "1.0.0",
   "author": {
     "name": "Nick Shepherd",
     "url": "https://goodcodeguy.com"
@@ -20,14 +20,14 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/goodcodeguy/clicktrap/blob/master/MIT-LICENSE.txt"
+      "url": "https://github.com/goodcodeguy/swallow/blob/master/MIT-LICENSE.txt"
     }
   ],
-  "bugs": "https://github.com/goodcodeguy/clicktrap/issues",
-  "homepage": "https://github.com/goodcodeguy/clicktrap",
-  "docs": "https://github.com/goodcodeguy/clicktrap",
-  "download": "https://github.com/goodcodeguy/clicktrap/zipball/1.0.0",
-  "demo": "http://goodcodeguy.github.com/demos/clicktrap/index.html",
+  "bugs": "https://github.com/goodcodeguy/swallow/issues",
+  "homepage": "https://github.com/goodcodeguy/swallow",
+  "docs": "https://github.com/goodcodeguy/swallow",
+  "download": "https://github.com/goodcodeguy/swallow/zipball/1.0.0",
+  "demo": "http://goodcodeguy.github.com/demos/swallow/index.html",
   "dependencies": {
       "jquery": ">=1.8"
   }

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Good Search</title>
+		<title>jQuery Swallow</title>
 		<script src="../src/jquery-1.9.1.min.js"></script>
-		<script src="../src/clicktrap.plugin.js"></script>
+		<script src="../src/swallow.plugin.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('#search').clicktrap(function() { alert('first box lost focus'); });
-				$('#anotherbox').clicktrap(function() { alert('second box lost focus'); });
+				$('#search').swallow(function() { alert('first box lost focus'); });
+				$('#anotherbox').swallow(function() { alert('second box lost focus'); });
 			});
 		</script>
 
