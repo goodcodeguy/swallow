@@ -10,10 +10,11 @@
       {
         inside = false;
 
+        // Is the click target the trap itself?
         if(target.is(traps[i][0])) 
-          inside = true;
+          inside = true; // we are in the trap
         
-        // Short circuit if we are already inside
+        // Short circuit if we have already discovered where the target is
         if(false == inside)
         {
           $(traps[i][0]).find('*').each(function() {
@@ -22,13 +23,14 @@
           });
         }
 
-        // Short circuit if we are already inside
         if(false == inside)
         {
           traps[i][1].apply();
           delete(traps[i]);
         }
 
+        // If no more traps exist, go ahead and clean up the dom
+        // This should probably be optional as it's not really necessary
         if(traps.length == 0)
         {
           methods.destroy();
